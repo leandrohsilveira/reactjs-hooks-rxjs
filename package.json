@@ -1,0 +1,26 @@
+{
+  "name": "reactjs-hooks-rxjs",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "next",
+    "react-dom": "next",
+    "react-scripts": "2.1.0",
+    "rxjs": "^6.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
