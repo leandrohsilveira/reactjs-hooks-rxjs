@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import { BehaviorSubject } from "rxjs";
+import { BehaviorSubject } from "rxjs/internal/BehaviorSubject";
 
 function useObservable(observable, initialState) {
   const [value, setValue] = useState(initialState);
