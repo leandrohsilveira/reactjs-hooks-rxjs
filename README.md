@@ -2,7 +2,7 @@
 
 The ReactJS hooks feature introduced by 16.7 release is being considered the new state of art of the React. It’s goal is to provide a simpler way to manage component’s internal state and lifecycle.
 
-Advanced javascript developers may like to use RXJS to go full reactive instead of redux, or maybe like to combining both to go over-reactive (also over-bundled too - just kidding). But who try to use pure RXJS and React faces a boring boilerplate: subscribing and unsubscribing to observables and setting changes to component internal state.
+Advanced javascript developers may like to use RXJS to go full reactive instead of redux. But who try to use pure RXJS and React faces a boring boilerplate: subscribing and unsubscribing to observables and setting changes to component internal state.
 
 ```jsx
 import React, { Component } from 'react';
