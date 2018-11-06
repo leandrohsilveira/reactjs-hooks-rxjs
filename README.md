@@ -63,7 +63,7 @@ function FooComponent() {
 It abstracts away the observable subscription and unsubscription and subscribes to observable changes updating it to component internal state, pretty simple huh?
 
 ## Task list example
-To be more pactical, let's implement a classic TODO List example using ReactJS and RXJS.
+To be more practical, let's implement a classic TODO List example using ReactJS and RXJS.
 
 ### Task store
 Here we control the task list state as an application state.
