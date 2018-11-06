@@ -1,6 +1,6 @@
 # ReactJS 16.7 Hooks + RxJS
 
-The ReactJS hooks feature introduced by the first 16.7 alpha release is being considered the new "state-of-the-art" of the React. It’s goal is to provide a more simple way to manage component’s internal state and lifecycle as an alternative to class components.
+The ReactJS hooks feature introduced by the first 16.7 alpha release is being considered the new "state-of-the-art" of the React. The goal is to provide a more simple way to manage component’s internal state and lifecycle as an alternative to class components.
 
 Adventurers javascript developers may wish to use RXJS to go full reactive instead of redux. But who try to use pure RXJS and React faces a boring boilerplate: subscribing and unsubscribing to observables and setting changes to component internal state, for EVERY connected component.
 
