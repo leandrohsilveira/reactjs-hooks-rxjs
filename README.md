@@ -59,7 +59,7 @@ To be more pactical, let's implement a classic TODO List example using ReactJS a
 ### Task store
 Here we control the task list state as an application state.
 ```js
-import { BehaviorSubject } from "rxjs";
+import { BehaviorSubject } from "rxjs/internal/BehaviorSubject";
 
 const taskStore = {
   __sequence: 0,
