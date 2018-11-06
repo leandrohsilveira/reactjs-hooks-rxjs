@@ -2,7 +2,7 @@
 
 The ReactJS hooks feature introduced by the first 16.7 alpha release is being considered the new state of art of the React. It’s goal is to provide a more simple way to manage component’s internal state and lifecycle as an alternative to class components.
 
-Advanced javascript developers may like to use RXJS to go full reactive instead of redux. But who try to use pure RXJS and React faces a boring boilerplate: subscribing and unsubscribing to observables and setting changes to component internal state.
+Adventurers javascript developers may wish to use RXJS to go full reactive instead of redux. But who try to use pure RXJS and React faces a boring boilerplate: subscribing and unsubscribing to observables and setting changes to component internal state, for EVERY connected component.
 
 ```jsx
 import React, { Component } from 'react';
@@ -28,10 +28,12 @@ class Foo extends Component {
 
 ```
 
-To reduce the boilerplate of RXJS integration with React, developers appeal to decorators, that is one of the known causes of the “component tree wrapper hell” that mobilized the React Team to introduce the hooks feature. They also appeal to other libraries like “Recycle JS” that abstracts away the observable subscription/unsubscription.
+Some developers appeal to decorators to avoid this, but this is one of the known causes of the “component tree wrapper hell” that mobilized the React Team to introduce the hooks feature. 
+
+They also appeal to other libraries like “Recycle JS” that abstracts away the observable subscription/unsubscription.
 
 ## The magical hook
-Extra libraries or decorators no more. Just one hook and your components are ready to react any RXJS Observable changes:
+No more extra libraries or decorators. Just one hook and your components are ready to react to any RXJS Observable changes:
 
 ```js
 import {useState, useEffect} from 'react';
